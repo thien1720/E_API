@@ -13,6 +13,7 @@ function route(app){
     app.use('/cart', Carts)
     app.use("/comment" , Comments)
     app.use("/build" , Builds)
+    app.use("/" , getAllProduct)
 }
 
 module.exports = route
